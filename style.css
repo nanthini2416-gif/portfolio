@@ -1,0 +1,148 @@
+:root {
+    --accent: #ff6b35;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --bg: #ffffff;
+}
+
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+
+/* HERO */
+
+.hero {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero img {
+    width: 140px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+}
+
+.hero h1 span {
+    color: var(--accent);
+}
+
+.hero h2 {
+    font-size: 18px;
+    color: var(--muted);
+    margin-bottom: 15px;
+}
+
+.hero-text {
+    font-size: 15px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.social a {
+    margin: 15px 8px;
+    color: var(--text);
+    font-size: 18px;
+}
+
+
+/* SECTIONS */
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.section-title span {
+    color: var(--accent);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.section-title h3 {
+    font-size: 20px;
+}
+
+
+/* TIMELINE */
+
+.timeline-item {
+    margin-bottom: 25px;
+}
+
+.timeline-item h4 {
+    font-size: 16px;
+}
+
+.timeline-item small {
+    color: var(--muted);
+}
+
+.timeline-item p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
+/* SKILLS */
+
+.skills span {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+
+/* EDUCATION */
+
+.education li {
+    margin-bottom: 15px;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 40px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 26px;
+    }
+}
